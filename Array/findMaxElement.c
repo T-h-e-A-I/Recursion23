@@ -9,3 +9,8 @@ int main(){
     }
     printf("The max element is %d\n",max);
 }
+//i = 0 max = 1 arr[i] = 1
+//i = 1 max = 1 arr[i] = 100 max = 100
+//i = 2 max = 100 arr[i] = 500 max = 500
+//i = 3 max = 500 arr[i] = -100 max = 500
+//i = 4 max = 500 arr[i] = 20000 max = 20000
