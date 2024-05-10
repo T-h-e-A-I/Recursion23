@@ -7,7 +7,7 @@ int main()
     fgets(str, sizeof(str), stdin);
     int frequency[26];
     for (int i = 97; i < 123; i++)
-    { // i = 65 //target = 'A'
+    { // i = 97 //target = 'a' //i = 98 ///target='b'
         int count = 0;
         for (int j = 0; j < strlen(str); j++)
         { // string er last porjonto check koro
