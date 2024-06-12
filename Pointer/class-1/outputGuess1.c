@@ -15,7 +15,7 @@ int main(){
     printf("The adress of x is: %p\n", &x);
     printf("The value of p is : %p\n", p);
     printf("The content of p is : %d\n",*p);
-    
+
 }
 // x -> 10 , 0xd4
 // y -> 15, 0xd8
