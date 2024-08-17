@@ -1,6 +1,6 @@
 # Recursion 23 Batch
 
-Welcome to the **Recursion 23 Batch** GitHub repository! This repository is dedicated to storing all codes and homework assignments related to a course or study group focusing on recursion and related topics. Below you'll find an overview of the repository's content, how to navigate it, and other useful information.
+Welcome to the **Recursion 23 Batch** GitHub repository! This repository is dedicated to storing all codes and homework assignments related to a course or study group focusing on learing basics of C. Below you'll find an overview of the repository's content, how to navigate it, and other useful information.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -14,7 +14,231 @@ The **Recursion 23 Batch** repository is a resource for learning the basics of C
 
 ## Repository Structure
 
-The repository is organized into different sections to help you find the content you need. This structure will be updated after the course is finished.
+The repository is organized into different sections to help you find the content you need.
+```
+📦 
+├─ .DS_Store
+├─ .vscode
+│  └─ settings.json
+├─ Array
+│  ├─ Problem1Salary.c
+│  ├─ a.out
+│  ├─ arrayAccess.c
+│  ├─ arrayDeclaration.c
+│  ├─ arrayInput.c
+│  ├─ findDuplicate.c
+│  ├─ findMaxElement.c
+│  ├─ invalidAccess.c
+│  ├─ outputUsingLoop.c
+│  ├─ passArrayIntoAFunction.c
+│  ├─ problem1witharray.c
+│  ├─ reverseAnArray.c
+│  └─ reverseInPlace.c
+├─ BitwiseOperations
+│  ├─ AndExample.c
+│  ├─ NotOperator.c
+│  ├─ OrExample.c
+│  ├─ ShiftExample.c
+│  ├─ a.out
+│  ├─ bitMasking.c
+│  ├─ bitPrinting.c
+│  ├─ changeCase.c
+│  ├─ checkIfSame.c
+│  ├─ findUnique.c
+│  ├─ oddEven.c
+│  ├─ powerOf2.c
+│  └─ setResetToggle.c
+├─ Classic Problems
+│  ├─ BinarySearch.c
+│  ├─ BubbleSort.c
+│  ├─ Euclid.c
+│  ├─ Factorial.c
+│  ├─ FibWithoutMemoisation.c
+│  ├─ Fibonacci.c
+│  ├─ GCD.c
+│  ├─ LinearSearch.c
+│  ├─ Prime.c
+│  ├─ SelectionSort.c
+│  ├─ SieveOfEratosthenis.c
+│  └─ a.out
+├─ Contest-1
+│  ├─ A.c
+│  ├─ B.c
+│  ├─ C.c
+│  ├─ D.c
+│  ├─ E.c
+│  ├─ F.c
+│  ├─ G.c
+│  ├─ H.c
+│  ├─ I.c
+│  ├─ J.c
+│  └─ a.out
+├─ Extra
+│  ├─ a.out
+│  ├─ aweshmath.h
+│  ├─ constant.c
+│  ├─ elseIfCalculator.c
+│  ├─ enum.c
+│  ├─ enumInGames.c
+│  ├─ macro.c
+│  ├─ math.c
+│  ├─ multilineMacro.c
+│  ├─ randomNumber.c
+│  ├─ switchCalculator.c
+│  ├─ ternary.c
+│  ├─ ternary2.c
+│  ├─ ternaryChaining.c
+│  ├─ ternaryOddEven.c
+│  └─ time.c
+├─ File
+│  ├─ a.out
+│  ├─ fgets().c
+│  ├─ fileAddProblem.c
+│  ├─ fileAddProblemAlt.c
+│  ├─ fileEOF.c
+│  ├─ fileLineRead.c
+│  ├─ fileProblem.c
+│  ├─ fileRead.c
+│  ├─ fileWrite.c
+│  ├─ in.txt
+│  ├─ input.txt
+│  ├─ input1.txt
+│  ├─ inputLines.txt
+│  ├─ inputNumbers.txt
+│  ├─ out.txt
+│  ├─ output1.txt
+│  ├─ outputNumbers.txt
+│  └─ outputNumbersAlt.txt
+├─ Function
+│  ├─ a.out
+│  └─ functionScope.c
+├─ Multidimensional Array
+│  ├─ 3Darray.c
+│  ├─ a.out
+│  ├─ arrayOfStrings.c
+│  ├─ februaryMonthSales.c
+│  ├─ matrixMultiplication.c
+│  ├─ monthlysaleswith2darray.c
+│  ├─ nestedLoop.c
+│  ├─ salesProblem.c
+│  ├─ salesProblemWith2Darray.c
+│  ├─ sumOfMatrix.c
+│  ├─ transpose.c
+│  └─ weatherForecast.c
+├─ Pointer
+│  ├─ class-1
+│  │  ├─ NullPointer1.c
+│  │  ├─ NullPointer2.c
+│  │  ├─ a.out
+│  │  ├─ accessingAdress.c
+│  │  ├─ arrayAdressAcessing.c
+│  │  ├─ outputGuess1.c
+│  │  ├─ pointerDeclarationAndAccess.c
+│  │  ├─ size.c
+│  │  ├─ wronCode2.c
+│  │  └─ wrongCode1.c
+│  ├─ class-2
+│  │  ├─ a.out
+│  │  ├─ accessingArrayWithArrayName.c
+│  │  ├─ accessingArrayWithPointers.c
+│  │  ├─ addingTwoNumbers.c
+│  │  ├─ addressOfArrayElements.c
+│  │  ├─ arrayCopy.c
+│  │  ├─ bypassingArrayCopy.c
+│  │  ├─ doublePointer.c
+│  │  ├─ nameOfArray.c
+│  │  ├─ pointerIncrement.c
+│  │  └─ sizeOfPointers.c
+│  ├─ class-3
+│  │  ├─ 2DarrayAllocation.c
+│  │  ├─ a.out
+│  │  ├─ array.c
+│  │  ├─ calloc.c
+│  │  ├─ errorCodeSegFault.c
+│  │  ├─ malloc.c
+│  │  ├─ mallocAdresses.c
+│  │  ├─ mallocVsCalloc.c
+│  │  ├─ problem1ExtendedSolution.c
+│  │  ├─ problem1Solution.c
+│  │  ├─ realloc.c
+│  │  └─ variableLengthArray.c
+│  └─ class-4
+│     ├─ a.out
+│     ├─ allocateMemory.c
+│     ├─ arrayOfPointers.c
+│     ├─ dangerousFunction.c
+│     ├─ functionAsParameter.c
+│     ├─ functionPointer.c
+│     ├─ multipleReturn.c
+│     ├─ passAnArray.c
+│     ├─ passByReference.c
+│     ├─ passByValue.c
+│     ├─ quiz.c
+│     ├─ stringPointer.c
+│     ├─ swap.c
+│     └─ tfSolve.c
+├─ Pracitise Problems
+│  ├─ .DS_Store
+│  ├─ Array Practise.pdf
+│  ├─ Bitwise Operation Practise.pdf
+│  ├─ Classic Problems Practise.pdf
+│  ├─ File and Extras.pdf
+│  ├─ MultiDimentionalArray Practise.pdf
+│  ├─ Pointer Practise.pdf
+│  ├─ String Practise.pdf
+│  └─ Structure Practise.pdf
+├─ README.md
+├─ Slides
+│  ├─ Lecture 10 Array.pdf
+│  ├─ Lecture 11 & 12 Strings.pdf
+│  ├─ Lecture 13 & 14 MultiDimentionalArray.pdf
+│  ├─ Lecture 17 & 18 Classic Problems.pdf
+│  ├─ Lecture 17 & 18 Classic Problems.pptx
+│  ├─ Lecture 19 Pointer.pdf
+│  ├─ Lecture 20 Pointer-2.pdf
+│  ├─ Lecture 21 Pointer-3.pdf
+│  ├─ Lecture 22 Pointer-4.pdf
+│  ├─ Lecture 23 Bitwise Opeartion.pdf
+│  ├─ Lecture 25 Structure and Union.pdf
+│  └─ Lecture 26 File and Extras.pdf
+├─ String
+│  ├─ a.out
+│  ├─ addingTwoString.c
+│  ├─ asciiCodePrinter.c
+│  ├─ asciiToChar.c
+│  ├─ aweshCipherChallange.c
+│  ├─ aweshCipherChallangeLevel3.c
+│  ├─ aweshsCipherChallangeLevel2.c
+│  ├─ capitaliseAWord.c
+│  ├─ declarationAndIntialisation.c
+│  ├─ errorStringAdd.c
+│  ├─ errorStringAssign.c
+│  ├─ lineIO.c
+│  ├─ pallindromeCheck.c
+│  ├─ passingStringtoFunction.c
+│  ├─ strCmp.c
+│  ├─ strCopy.c
+│  ├─ stringConcat.c
+│  ├─ stringIO.c
+│  ├─ stringIOusingLoop.c
+│  ├─ stringLength.c
+│  ├─ stringRev.c
+│  └─ useOfLibraryFunctions.c
+└─ Struct and Union
+   ├─ a.out
+   ├─ employeeProblem.c
+   ├─ intialisation.c
+   ├─ nestedStructure.c
+   ├─ pointProblem.c
+   ├─ structureArray.c
+   ├─ structurePointer.c
+   ├─ studentProblem.c
+   ├─ typedef.c
+   ├─ union.c
+   └─ unionProblem.c
+```
+©generated by [Project Tree Generator](https://woochanleee.github.io/project-tree-generator)
+
 
 ### Folders
 
